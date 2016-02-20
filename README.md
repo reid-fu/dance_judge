@@ -27,3 +27,6 @@
 ### Set 5
 - app should also judge based on whether user danced to rhythm in music
 
+###Set 6
+- app should be fucking awesome
+
