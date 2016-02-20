@@ -8,3 +8,6 @@
 	- larger movements of head, neck, chest (for men) and bottom half (for women)
 	- bending/twisting right knee, but not left
 - source: http://www.telegraph.co.uk/news/science/science-news/10732814/The-key-to-being-a-great-dancer-Stop-waving-your-arms-around-say-scientists.html
+
+## Requirements Set 1
+- app shall track amount of user movement with score, more movement = higher score
