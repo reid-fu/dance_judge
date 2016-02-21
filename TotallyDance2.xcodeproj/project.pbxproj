@@ -13,6 +13,8 @@
 		463E6C951C7977EA005CCDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463E6C941C7977EA005CCDF3 /* Assets.xcassets */; };
 		463E6C981C7977EA005CCDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463E6C961C7977EA005CCDF3 /* LaunchScreen.storyboard */; };
 		463E6CA31C7977EA005CCDF3 /* TotallyDance2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E6CA21C7977EA005CCDF3 /* TotallyDance2Tests.swift */; };
+		463E6CAE1C797A24005CCDF3 /* IMG_0030_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 463E6CAD1C797A24005CCDF3 /* IMG_0030_1.gif */; };
+		463E6CB01C797C2E005CCDF3 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E6CAF1C797C2E005CCDF3 /* Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		463E6C9E1C7977EA005CCDF3 /* TotallyDance2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotallyDance2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		463E6CA21C7977EA005CCDF3 /* TotallyDance2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotallyDance2Tests.swift; sourceTree = "<group>"; };
 		463E6CA41C7977EA005CCDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463E6CAD1C797A24005CCDF3 /* IMG_0030_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = IMG_0030_1.gif; path = ../../../Desktop/IMG_0030_1.gif; sourceTree = "<group>"; };
+		463E6CAF1C797C2E005CCDF3 /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gif.swift; path = ../SwiftGif/SwiftGifCommon/Gif.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		463E6C811C7977EA005CCDF3 = {
 			isa = PBXGroup;
 			children = (
+				463E6CAF1C797C2E005CCDF3 /* Gif.swift */,
 				463E6C8C1C7977EA005CCDF3 /* TotallyDance2 */,
 				463E6CA11C7977EA005CCDF3 /* TotallyDance2Tests */,
 				463E6C8B1C7977EA005CCDF3 /* Products */,
@@ -79,6 +84,7 @@
 			children = (
 				463E6C8D1C7977EA005CCDF3 /* AppDelegate.swift */,
 				463E6C8F1C7977EA005CCDF3 /* ViewController.swift */,
+				463E6CAD1C797A24005CCDF3 /* IMG_0030_1.gif */,
 				463E6C911C7977EA005CCDF3 /* Main.storyboard */,
 				463E6C941C7977EA005CCDF3 /* Assets.xcassets */,
 				463E6C961C7977EA005CCDF3 /* LaunchScreen.storyboard */,
@@ -178,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				463E6C981C7977EA005CCDF3 /* LaunchScreen.storyboard in Resources */,
+				463E6CAE1C797A24005CCDF3 /* IMG_0030_1.gif in Resources */,
 				463E6C951C7977EA005CCDF3 /* Assets.xcassets in Resources */,
 				463E6C931C7977EA005CCDF3 /* Main.storyboard in Resources */,
 			);
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463E6CB01C797C2E005CCDF3 /* Gif.swift in Sources */,
 				463E6C901C7977EA005CCDF3 /* ViewController.swift in Sources */,
 				463E6C8E1C7977EA005CCDF3 /* AppDelegate.swift in Sources */,
 			);

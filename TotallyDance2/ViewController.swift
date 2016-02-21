@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Photos
+import PhotosUI
+import MobileCoreServices
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, PHLivePhotoViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +22,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
