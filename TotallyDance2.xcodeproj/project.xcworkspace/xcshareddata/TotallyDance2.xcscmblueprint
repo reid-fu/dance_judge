@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "51EDB68611F8CCDC839A1C0DD44852157C711F0B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CC1CB80635DAA6EE75D19EA4BDDA420AB94DBCEA" : 0,
+    "51EDB68611F8CCDC839A1C0DD44852157C711F0B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DD43BD66-DCF5-4AF5-86C2-2B08EC1EF08A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CC1CB80635DAA6EE75D19EA4BDDA420AB94DBCEA" : "SwiftGif\/",
+    "51EDB68611F8CCDC839A1C0DD44852157C711F0B" : "TotallyDance2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TotallyDance2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TotallyDance2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/reid-fu\/dance_judge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51EDB68611F8CCDC839A1C0DD44852157C711F0B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bahlo\/SwiftGif.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC1CB80635DAA6EE75D19EA4BDDA420AB94DBCEA"
+    }
+  ]
+}

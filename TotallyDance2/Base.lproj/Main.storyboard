@@ -17,15 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0030_1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-Yw-M6r">
-                                <rect key="frame" x="115" y="206" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-jy-yWh">
+                                <rect key="frame" x="268" y="102" width="64" height="30"/>
+                                <state key="normal" title="Push Me!"/>
+                                <connections>
+                                    <action selector="buttonView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efE-k2-2q5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0030_1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="PL8-bq-UzG">
+                                <rect key="frame" x="57" y="270" width="240" height="128"/>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hey" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Voy-E5-gXW">
+                                <rect key="frame" x="190" y="450" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="PL8-bq-UzG" id="tZ2-DX-1mM"/>
+                        <outlet property="textField" destination="Voy-E5-gXW" id="TuA-td-NbB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="164" y="137"/>
         </scene>
     </scenes>
     <resources>
